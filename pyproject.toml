@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fgeful-kit"
+version = "0.1.0"
+description = "Recorded-state data films, Rerun replays, and Manim explainers"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy>=2.0,<2.1"]
+
+[project.optional-dependencies]
+browser = ["playwright==1.63.0"]
+manim = ["manim==0.18.1"]
+rerun = ["rerun-sdk==0.24.1"]
+all = ["playwright==1.63.0", "manim==0.18.1", "rerun-sdk==0.24.1"]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+fgeful-kit = "fgeful_kit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fgeful_kit = ["web/*", "fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,14 @@
+.git
+.venv*
+output
+data
+private
+dist
+build
+**/__pycache__
+**/*.egg-info
+**/*.mp4
+**/*.rrd
+**/*.mcap
+**/*.bin
+**/*.zip

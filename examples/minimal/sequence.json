@@ -1,0 +1,6 @@
+{
+  "clips": [
+    {"title": "The shared transform", "file": "../../output/explanation.mp4"},
+    {"title": "Synthetic geometry replay", "file": "../../output/data.mp4"}
+  ]
+}

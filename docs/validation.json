@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-09",
+  "platform": "Linux",
+  "python": "3.11",
+  "dependencies": {
+    "numpy": "2.0.2",
+    "manim": "0.18.1",
+    "rerun-sdk": "0.24.1",
+    "playwright": "1.63.0",
+    "pytest": "8.4.2"
+  },
+  "tests": {
+    "count": 10,
+    "passed": true
+  },
+  "pip_check": "No broken requirements found.",
+  "videos": {
+    "data": {
+      "file": "data.mp4",
+      "sha256": "b1379f59a7df55f8db15d427997401da6f8bbe4f1937e05f4e222b08a5fce82b",
+      "duration_s": 12.0,
+      "frames": 144,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "clean-explanation": {
+      "file": "clean-explanation.mp4",
+      "sha256": "436184095399432e267f87416046a6bd35466edc20c350010feb1446480ce872",
+      "duration_s": 5.666667,
+      "frames": 68,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "explainer": {
+      "file": "explainer.mp4",
+      "sha256": "a16e6c4d955d8003f43a7240a38f38c2efb228c78d90ad0bdd7c725ecdffe52a",
+      "duration_s": 17.667,
+      "frames": 212,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 2,
+      "full_decode_passed": true
+    },
+    "acfa-ChunkState": {
+      "file": "acfa-ChunkState.mp4",
+      "sha256": "9749eb53566c1778ce3eec648a106e615dbb106cbdcbbd9e029b29dccede033d",
+      "duration_s": 11.083333,
+      "frames": 133,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "acfa-ACFAFinding": {
+      "file": "acfa-ACFAFinding.mp4",
+      "sha256": "170c698984a601d31e80644a4dfb8daefd442d93d9c240ba2c8499ef529d8336",
+      "duration_s": 10.166667,
+      "frames": 122,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "acfa-DirectReferenceFactor": {
+      "file": "acfa-DirectReferenceFactor.mp4",
+      "sha256": "a089d0ca38a9bef2ddcc7ecd0f12982a14280f5cdd11acb02480d2008f843275",
+      "duration_s": 12.083333,
+      "frames": 145,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    }
+  },
+  "previews": {
+    "previews": {
+      "browser_errors": [],
+      "overflow": [],
+      "geometry_interpolated": false,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    "acfa-previews": {
+      "browser_errors": [],
+      "overflow": [],
+      "geometry_interpolated": false,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    }
+  },
+  "recordings": {
+    "demo": {
+      "steps": 13,
+      "component_columns": 75,
+      "dataframe_load_passed": true,
+      "point_stride": 1
+    },
+    "acfa-final": {
+      "steps": 13,
+      "component_columns": 6802,
+      "dataframe_load_passed": true,
+      "point_stride": 10
+    }
+  },
+  "manual_review": [
+    "synthetic browser initial/comparison/final",
+    "Manim equation scene",
+    "ACFA measured-findings scene",
+    "ACFA direct-reference scene",
+    "ACFA browser matched-control comparison"
+  ],
+  "not_executed": [
+    "Docker build",
+    "macOS",
+    "Windows/WSL",
+    "Python 3.12",
+    "Rerun native GUI inspection",
+    "complete rerender of both original ACFA films"
+  ],
+  "relocation": {
+    "extracted_source_tests": "10 passed",
+    "wheel_imported_outside_source_tree": true,
+    "path_contains_spaces": true,
+    "bundled_web_fonts_present": true,
+    "browser": {
+      "file": "relocated-data.mp4",
+      "sha256": "0c636239e170c7d1e0a5f62a4548c880c0d4cab7fde214559c1b5394c0702e29",
+      "duration_s": 1.0,
+      "frames": 12,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "manim": {
+      "file": "relocated-manim.mp4",
+      "sha256": "436184095399432e267f87416046a6bd35466edc20c350010feb1446480ce872",
+      "duration_s": 5.666667,
+      "frames": 68,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "12/1",
+      "chapters": 0,
+      "full_decode_passed": true
+    },
+    "rerun_dataframe_load_passed": true
+  }
+}
