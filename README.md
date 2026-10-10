@@ -136,3 +136,6 @@ git push -u origin main
 ```
 
 No external service, account, telemetry service, or CDN is required at render time. Dependencies are downloaded during installation. The source package includes unmodified Lato fonts with their OFL notice in `src/fgeful_kit/fonts/LICENSE.txt`; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). A license for the repository's own code has not been selected by its owner.
+
+
+A tiny package for visualizing results and experiments - in the spirit of aiding human intuition in research.
